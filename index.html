@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="" ng-app="portfolioApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>DEMO</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.black.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/angular.min.js" type="text/javascript"></script>
+    <script src="js/angular-ui-router.js" type="text/javascript"></script>
+</head>
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!--<div ui-view>
+    </div>
+    <a ui-sref="state1">State 1</a> <a ui-sref="state2">State 2</a>-->
+
+    <navbar></navbar>
+    <hero-slider></hero-slider>
+    <content-data></content-data>
+    <footer-data></footer-data>
+
+
+    <script src="js/vendor/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="js/vendor/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/wow.min.js" type="text/javascript"></script>
+    <!-- Angular js index js and controller js-->
+    <script src="js/index.js" type="text/javascript"></script>
+    <script src="js/directives.js" type="text/javascript"></script>
+    <script src="js/controller/state1.js" type="text/javascript"></script>
+    <script src="js/controller/state2.js" type="text/javascript"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
